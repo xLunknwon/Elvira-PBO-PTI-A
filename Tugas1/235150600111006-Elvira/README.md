@@ -13,7 +13,8 @@ Fitur yang ditiru :
 1. fitur Login
 2. fitur Presensi kelas
 3. fitur Melihat daftar presensi yang telah dilakukan
-4. fitur Log out
+4. fitur melihat jadwal mata kuliah
+5. fitur Log out
 
 ## 🔗 Link Penjelasan Tugas
 
