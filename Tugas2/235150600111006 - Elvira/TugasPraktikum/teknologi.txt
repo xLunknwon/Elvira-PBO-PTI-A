@@ -1,0 +1,11 @@
+1. Judul    : ARTIFICIAL INTELLIGENCE
+   Penulis  : John Lenon, Elon Musk
+   Penerbit : Gramedia
+
+2. Judul    : JAVA
+   Penulis  : Christoper Kevin 
+   Penerbit : Gramedia
+
+3. Judul    : PEMROGRAMAN WEB
+   Penulis  : Abdul Jalaluddin, Stevanny Rush 
+   Penerbit : Gramedia
