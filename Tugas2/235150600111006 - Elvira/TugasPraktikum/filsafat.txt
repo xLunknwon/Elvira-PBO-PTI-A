@@ -9,3 +9,12 @@
 3. Judul    : FILSAFAT PENDIDIKAN
    Penulis  : Abdul Jalaluddin, Adamy Rush 
    Penerbit : Gramedia
+
+4. Judul    : FILSAFAT XYZ
+   Penulis  : Abdul Jalaluddin, Adamy Rush 
+   Penerbit : Gramedia
+
+5. Judul    : FILLOSOFI TERAS
+   Penulis  : Henry Manampiring
+   Penerbit : Gramedia
+

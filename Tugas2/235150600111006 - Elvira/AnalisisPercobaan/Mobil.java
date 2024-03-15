@@ -56,6 +56,6 @@ public class Mobil {
         System.out.println("serta memiliki warna " + warna);
         System.out.println("dan mampu menempuh kecepatan " + kecepatan);
         System.out.println("Debug Jarak dalam meter : " + jarak + " M");
-        System.out.println("jarak yang di tempuh adalah " + jarakKm + " Km");
+        System.out.println("Jarak yang di tempuh adalah " + jarakKm + " Km");
     }
 }

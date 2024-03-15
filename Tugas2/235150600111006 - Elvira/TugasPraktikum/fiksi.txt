@@ -9,3 +9,13 @@
 3. Judul    : HUJAN
    Penulis  : Tere Liye
    Penerbit : Gramedia
+
+4. Judul    : BULAN
+   Penulis  : Tere Tiye
+   Penerbit : Gramedia
+
+5. Judul    : BUMI
+   Penulis  : Tere Tiye
+   Penerbit : Gramedia
+
+

@@ -9,3 +9,12 @@
 3. Judul    : POLITIK Z
    Penulis  : Mark Zuckerberg, Mark Lee
    Penerbit : Gramedia
+
+4. Judul    : POLITIK POL
+   Penulis  : Mark Zuckerberg, Mark Lee
+   Penerbit : Gramedia
+
+5. Judul    : POLITIK A
+   Penulis  : Mark Zuckerberg, Mark Lee
+   Penerbit : Gramedia
+
