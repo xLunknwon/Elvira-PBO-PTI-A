@@ -1,18 +1,19 @@
 # 📁 Tugas 3 : Class Diagram
 
 ## 👤 Identitas Intern
-Nama : Devan             
-NIM  : 22xxxxxx
+Nama : Elvira             
+NIM  : 235150600111006
 
 ## 📤 Submission
 
 Tema yang dipilih : 
 Class Diagram yang dibuat : 
-1. Class Diagram 1
-2. Class Diagram 2
+1. Class Diagram Manusia
+2. Class Diagram Hewan
+3. Class Diagram Tumbuhan
 dst
 
 ## 🔗 Link Penjelasan Tugas
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
+https://youtu.be/ZSa7ZR_Ky8s
 
