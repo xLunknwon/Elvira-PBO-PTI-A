@@ -11,7 +11,7 @@ Class Diagram yang dibuat :
 1. Class Diagram Manusia
 2. Class Diagram Hewan
 3. Class Diagram Tumbuhan
-dst
+
 
 ## 🔗 Link Penjelasan Tugas
 
