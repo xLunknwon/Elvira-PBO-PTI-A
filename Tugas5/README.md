@@ -52,7 +52,7 @@ git push origin master
 - Upload video penjelasan ke youtube dan batasi videonya hanya yang memiliki link yang dapat melihat
 
 ## 💯 Total Bonus Points
-Apabila kamu memenuhi semua optional requirements yang diberikan oleh Bocchi senpai, kamu akan mendapatkan poin bonus sebesar **50 Poin** yang bisa membantu kamu saat UTP/UAP nanti
+Apabila kamu memenuhi semua optional requirements yang diberikan oleh Bocchi senpai, kamu akan mendapatkan poin bonus sebesar **15 Poin** yang bisa membantu kamu saat UTP/UAP nanti
 
 ## 👥 Contacts
 
