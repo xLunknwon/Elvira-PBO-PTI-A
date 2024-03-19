@@ -4,6 +4,14 @@ public class Negara {
     private String namaNegara;
     private String bahasaNasional;
 
+    public String getBahasaNasional() {
+        return bahasaNasional;
+    }
+
+    public void setBahasaNasional(String bahasaNasional) {
+        this.bahasaNasional = bahasaNasional;
+    }
+
     public Negara(String n, String b){
         this.namaNegara = n;
         this.bahasaNasional = b;
