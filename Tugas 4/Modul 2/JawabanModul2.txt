@@ -1,0 +1,197 @@
+A. Student
+1. Lakukan percobaan constructor diatas dan benahi jika menemukan kesalahan!
+    public Student() 
+        name = "";
+        address = "";
+        age = 0;
+    public MainStudent()
+        anna = new Student("anna", "Batu", 18);
+
+    Terdapat 2 kesalahan pada percobaan constructor di atas. Yang pertama pada class Student
+terdapat kesalahan pengetikan di constructor no argument (public student(){}, seharusnya
+menjadi public Student(){}). Kesalahan kedua terletak pada class MainStudent pada saat
+mengubah object anna (anna = new student();, seharusnya menjadi anna = new Student();).
+
+2. Tambahkan constructor pada class Student dengan parameter yang mempunyai
+parameter masing masing nilai dari mata pelajaran yang ada! Kemudian buat contoh
+objeknya pada main Class!
+    Student.java
+    public Student(String name, String address, int age, double math, double english, double science) {
+        this.name = name;
+        this.address = address;
+        this.age = age;
+        this.mathGrade = math;
+        this.englishGrade = english;
+        this.scienceGrade = science;
+    }
+
+    MainStudent.java
+    // membuat objek dengan parameter semua mapel
+        System.out.println("===================");
+        Student rosa = new Student("Rosa", "Tuban", 20, 87, 90, 95);
+        rosa.displayMessage();
+
+    Constructor ini menerima enam parameter: nama (n), alamat (a), umur (ag), nilai matematika (math), nilai bahasa Inggris (english), dan nilai IPA (science).
+Nilai-nilai parameter tersebut kemudian diset ke dalam variabel instance yang sesuai.
+
+3. Tambahkan method dengan nilai balikan berupa boolean pada class student bernama
+statusAkhir untuk menentukan apakah siswa tersebut remidi atau tidak. Ketentuannya
+adalah jika nilai lebih dari atau sama dengan 61 adalah lolos sedangkan nilai kurang
+dari atau sama dengan 60 adakah remidi. Nilai yang di cari adalah nilai rata rata untuk
+semua mapel. Kemudian nilai pada method statusAkhir tampilkan pada method
+displayMessage!
+
+    Student.java
+    public boolean statusAkhir(){
+        double average = getAverage();
+        return average >= 61;
+    }
+
+    public void displayMessage() {
+        System.out.println("Siswa dengan nama " + name);
+        System.out.println("beramalat di " + address);
+        System.out.println("berumur " + age);
+        System.out.println("mempunyai nilai rata rata " + getAverage());
+        System.out.println("berstatus akhir " + (statusAkhir() ? "Lolos" : "Remidi"));
+    }
+    pada nomor ini ditambahkan method statusAkhir(), dengan menggunakan nilai rata-rata dari semua mata pelajaran yang dihitung menggunakan method getAverage(). 
+    Jika nilai rata-rata tersebut lebih besar atau sama dengan 61, maka method akan mengembalikan true yang berarti siswa tersebut lulus. Jika tidak, maka akan mengembalikan false yang berarti siswa tersebut perlu remedial.
+    Kemudian, memanggil method statusAkhir() dalam method displayMessage() untuk menampilkan status akhir siswa (lolos atau remedial) bersamaan dengan informasi lainnya.
+
+4. Bagaimana cara memasukkan jumlah siswa sesuai dengan keinginan user? Tuliskan
+kodenya dengan inputan user yang interaktif! (key : menggunakan array)
+    MainStudent.java
+    Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan jumlah Siswa: ");
+        int n = input.nextInt();
+        Student[] siswaList = new Student[n];
+    Dengan menggunakan Scanner input, dan kemudian membuat array siswaList untuk menyimpan banyak data siswa yang diinputkan.
+
+5. Bagaimana cara menghitung banyaknya objek yang kita buat dari sebuah menginstance
+objek dari mein class? Tuliskan kodenya kemudian tampilkan informasinya dengan
+memanggil method jumlahObjek() bertipe void!
+    MainStudent.java
+    Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan jumlah Siswa: ");
+        int n = input.nextInt();
+        Student[] siswaList = new Student[n];
+        for (int i = 0; i < n; i++) {
+            System.out.println("\nMasukkan data untuk siswa ke-" + (i + 1) + ":");
+            System.out.print("Masukkan Nama: ");
+            String nama = input.next();
+            System.out.print("Masukkan Alamat: ");
+            String alamat = input.next();
+            System.out.print("Masukkan Umur: ");
+            int umur = input.nextInt();
+            System.out.print("Masukkan Nilai Matematika: ");
+            double math = input.nextDouble();
+            System.out.print("Masukkan Nilai Bahasa Inggris: ");
+            double english = input.nextDouble();
+            System.out.print("Masukkan Nilai IPA: ");
+            double science = input.nextDouble();
+
+            // Membuat objek Student dengan data yang dimasukkan
+            siswaList[i] = new Student(nama, alamat, umur, math, english, science);
+        }
+        System.out.println("\nInformasi Siswa:");
+        for (int i = 0; i < n; i++) {
+            System.out.println("Siswa ke-" + (i + 1) + ":");
+            siswaList[i].displayMessage();
+            System.out.println(); // Spasi antar siswa
+        }
+
+        input.close();
+        for (int i = 0; i < n; i++) {
+            // Memanggil konstruktor untuk membuat objek Student
+            siswaList[i] = new Student();
+        }
+        Student.jmlObjek();
+        System.out.println();
+    Untuk menjawab nomor 5, dengan menambahkan pemanggilan konstruktor Student() di dalam loop dan juga menyesuaikan penempatan pemanggilan method jumlahObjek() di luar loop untuk memastikan bahwa jumlah objek dihitung setelah 
+    semua objek dibuat. Kemudian setiap pengulangan dalam loop for memanggil konstruktor Student(), lalu kemudian menambahkan nilai jumlahObjek. Kemudian, di luar loop, memanggil method jumlahObjek() untuk menampilkan 
+    jumlah objek yang telah dibuat.
+
+B. constructor
+1. Lakukan percobaan Instance Method diatas dan benahi jika menemukan kesalahan!
+    Tidak ada kesalahan/error
+
+2. Tambahkan method untuk operator <, <=, >= !
+    Rasional.java
+    public boolean lessThan(Rasional A) {
+      return (pembilang * A.penyebut < penyebut * A.pembilang);
+   }
+
+   public boolean lessThanOrEqual(Rasional A) {
+      return (pembilang * A.penyebut <= penyebut * A.pembilang);
+   }
+
+   public boolean moreThanOrEqual(Rasional A) {
+      return (pembilang * A.penyebut >= penyebut * A.pembilang);
+   }
+
+    RasionalDemo.java
+    System.out.println("R1 < R2 : " + R1.lessThan(R2));
+    System.out.println("R1 <= R2 : " + R1.lessThanOrEqual(R2));
+    System.out.println("R1 >= R2 : " + R1.moreThanOrEqual(R2));
+
+    lessThan: Mengembalikan true jika R1 kurang dari R2, yaitu jika hasil perkalian pembilang R1 dengan penyebut R2 kurang dari hasil perkalian penyebut R1 dengan pembilang R2.
+    lessThanOrEqual: Mengembalikan true jika R1 kurang dari atau sama dengan R2, yaitu jika hasil perkalian pembilang R1 dengan penyebut R2 kurang dari atau sama dengan hasil perkalian penyebut R1 dengan pembilang R2.
+    greaterThanOrEqual: Mengembalikan true jika R1 lebih besar dari atau sama dengan R2, yaitu jika hasil perkalian pembilang R1 dengan penyebut R2 lebih besar dari atau sama dengan hasil perkalian penyebut R1 dengan pembilang R2.
+    
+
+
+3. Ubah method sederhana pada baris 25 – 30 yang awalnya adalah menggunakan while
+menjadi for!
+    Rasional.java
+    public void Sederhana() {
+      int temp, A, B;
+      if (penyebut == 0) {
+         return;
+      }
+      A = (pembilang < penyebut) ? penyebut : pembilang;
+      B = (pembilang < penyebut) ? pembilang : penyebut;
+      // while (B != 0) {
+      // temp = A % B;
+      // A = B;
+      // B = temp;
+      // }
+      for (; B != 0;) {
+         temp = A % B;
+         A = B;
+         B = temp;
+      }
+
+      pembilang /= A;
+      penyebut /= A;
+   }
+
+   Metode lessThan, lessThanOrEqual, dan greaterThanOrEqual membandingkan dua bilangan rasional. Mereka mengembalikan true jika relasi yang ditentukan berlaku dan false sebaliknya.
+
+4. Tambahkan method untuk operasi -, * , / !
+    Rasioanl.java
+    public Rasional subtract(Rasional A) {
+      int newPembilang = pembilang * A.penyebut - penyebut * A.pembilang;
+      int newPenyebut = penyebut * A.penyebut;
+      Rasional result = new Rasional(newPembilang, newPenyebut);
+      result.Sederhana();
+      return result;
+   }
+
+   public Rasional multiply(Rasional A) {
+      int newPembilang = pembilang * A.pembilang;
+      int newPenyebut = penyebut * A.penyebut;
+      Rasional result = new Rasional(newPembilang, newPenyebut);
+      result.Sederhana();
+      return result;
+   }
+
+   public Rasional divide(Rasional A) {
+      int newPembilang = pembilang * A.penyebut;
+      int newPenyebut = penyebut * A.pembilang;
+      Rasional result = new Rasional(newPembilang, newPenyebut);
+      result.Sederhana();
+      return result;
+   }
+   Kelas `Rasional` merepresentasikan bilangan rasional dan menyediakan metode untuk operasi aritmatika dasar seperti pengurangan, perkalian, dan pembagian. Tiga metode tersebut (`subtract`, `multiply`, `divide`) mengambil bilangan rasional lain sebagai argumen dan mengembalikan hasil operasi tersebut dalam bentuk bilangan rasional yang disederhanakan. Metode `Sederhana` digunakan untuk memastikan bahwa hasil operasi berada dalam bentuk tereduksi sebelum dikembalikan.
+
+
