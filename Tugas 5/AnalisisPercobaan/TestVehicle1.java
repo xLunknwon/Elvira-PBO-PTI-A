@@ -3,7 +3,6 @@ public class TestVehicle1 {
         System.out.println("Creating a vehicle with a 10,000 kg maximumload.");
         Vehicle1 vehicle = new Vehicle1(10000);
         System.out.println("Add box #1 (500kg) : " + vehicle.addBox(500));
-        System.out.println("Add load(100kg) : " + (vehicle.load=500));
         System.out.println("Add box #2 (250kg) : " + vehicle.addBox(250));
         System.out.println("Add box #3 (5000kg) : " + vehicle.addBox(5000));
         System.out.println("Add box #4 (4000kg) : " + vehicle.addBox(4000));
