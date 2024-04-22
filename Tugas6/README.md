@@ -8,7 +8,7 @@ Modul dapat kamu akses pada file berikut : [File Modul](./modules/Modul%203%20Ba
 
 Bocchi senpai memberikan catatan sebagai berikut yang sepertinya sama seperti Ryo senpai juga :
 
-- Untuk tugas bagian **Data dan Analisis Hasil Percobaan**, Bocchi senpai memberikan kamu perintah untuk mengerjakan soal-soal yang ada terlebih dahulu lalu jelaskan jawaban kamu per soal secara berurut melalui video youtube. 
+- Untuk tugas bagian **Data dan Analisis Hasil Percobaan**, Bocchi senpai memberikan kamu perintah untuk mengerjakan soal-soal yang ada terlebih dahulu lalu jelaskan jawaban kamu per soal secara berurut melalui video youtube. Apabila percobaannya berbentuk kodingan, maka harus didemokan juga di video 
 - Untuk bagian Tugas Praktikum, Bocchi senpai memberikan kamu tugas untuk membuat program yang memenuhi requirement sesuai bagian **deskripsi tugas praktikum** pada modul. Lalu presentasikan program yang telah kamu buat melalui video youtube.
 
 ### ✅ Must Requirements
