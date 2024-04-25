@@ -16,7 +16,5 @@ public class Main {
         Asprak adit = new Asprak();
 
         adit.presentasi();
-
-        
     }
 }
