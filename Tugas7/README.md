@@ -100,7 +100,9 @@ Bocchi senpai yang baik hati memberikan deadline 8 hari.
 - Buat folder ```Tugas 7```
 - Dalam folder ```Tugas 7```, buatlah folder bernama ```src``` dan folder ```img```
 - Isi identitas kamu sesuai template pada pada file berikut : [File Template](./src/README.md)
-- Kumpulkan source code kodingan kalian ke folder [```src```](./src/)
+- Pisahkan 2 bagian source code menjadi folder ```Analisis Percobaan``` dan folder ```Tugas Praktikum``` dalam folder ```src```
+- Kumpulkan source code bagian Analisis Percobaan ke folder ```Analisis Percobaan```
+- Kumpulkan source code bagian Tugas Praktikum ke folder ```Tugas Praktikum```
 - Kumpulkan gambar ke dalam folder [```img```](./img/) apabila ada
 - Jalankan command git berikut di terminal untuk mengupdate github repo kalian
 ```zsh
