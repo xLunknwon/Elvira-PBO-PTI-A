@@ -71,8 +71,8 @@ Opsi menu yang dimaksud yaitu :
     - Hitung total harga dan total jumlah dari KueJadi
     - Tampilkan informasi kue dengan harga (harga akhir) terbesar
 
-4. Buatlah sebuah subclass tambahan bernama KueBasi yang mewarisi superclass Kue ```30 Points``` 
-KueBasi memiliki properti sebagai berikut 
+4. Buatlah sebuah subclass tambahan bernama KueBasi yang mewarisi superclass Kue ```30 Points```      
+KueBasi memiliki properti sebagai berikut          
 Class Diagram KueBasi :
 
 | KueBasi |
