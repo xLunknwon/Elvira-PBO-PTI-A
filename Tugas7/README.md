@@ -81,7 +81,7 @@ Class Diagram KueBasi :
 | ---------------------- |
 | +hitungHarga() : double |
 
-Hitung harga pada KueBasi berdasarkan rumus : ``` harga - (lamaHari * (harga * 0.1))```
+Hitung harga pada KueBasi berdasarkan rumus : ``` harga - (lamaHari * (harga * 0.1))```          
 Lalu tambahkan beberapa KueBasi ke dalam array yang sudah ada dan tambahkan opsi menu :
 
     - Hitung total harga dan total lama hari dari KueBasi
