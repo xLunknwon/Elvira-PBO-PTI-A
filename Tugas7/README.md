@@ -27,7 +27,7 @@ Optional requirements hanya berlaku pada tugas praktikum
 
 Contoh : 
 
-dari kodinga berikut
+dari kodingan berikut
 
 ```java
 class Mahasiswa {
