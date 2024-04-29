@@ -23,21 +23,11 @@ Berikut adalah requirements yang harus dipenuhi pada bagian Tugas Praktikum
 ### 👌 Optional Requirements
 Optional requirements hanya berlaku pada tugas praktikum
 
-1. Terjemahkan kodingan bagian tugas praktikum menjadi class diagram dan pastikan sudah sesuai akses modifiernya beserta tipe data / tipe return data ```10 Points```
+1. Terjemahkan kodingan bagian tugas praktikum menjadi class diagram dan pastikan sudah sesuai akses modifiernya beserta tipe data / tipe return data ```10 Points``` (kumpulkan gambar class diagram di folder img)
 
 Contoh : 
 
-| Mahasiswa |
-| - |
-| +nama : String |
-| #nim : String |
-| -tglLahir : String |
-| prodi : String |
-| ---------------------- |
-| +misuh2(siapa : String) : String |
-| -berharap() : void |
-
-menjadi
+dari kodinga berikut
 
 ```java
 class Mahasiswa {
@@ -56,6 +46,18 @@ class Mahasiswa {
 }
 
 ```
+
+menjadi
+
+| Mahasiswa |
+| - |
+| +nama : String |
+| #nim : String |
+| -tglLahir : String |
+| prodi : String |
+| ---------------------- |
+| +misuh2(siapa : String) : String |
+| -berharap() : void |
 
 
 2. Terapkan konsep enkapsulasi ke semua class yang ada ```20 Points```
@@ -95,17 +97,18 @@ Bocchi senpai yang baik hati memberikan deadline 8 hari.
 
 ## 📤 Pengumpulan
 
-- Buat folder ```Tugas 6```
-- Dalam folder ```Tugas 6```, buatlah folder bernama ```src```
-- Isi identitas kamu beserta tema yang dipilih dan class diagram yang dibikin sesuai template yang bisa kamu temui pada file berikut : [File Template](./src/README.md)
+- Buat folder ```Tugas 7```
+- Dalam folder ```Tugas 7```, buatlah folder bernama ```src``` dan folder ```img```
+- Isi identitas kamu sesuai template pada pada file berikut : [File Template](./src/README.md)
 - Kumpulkan source code kodingan kalian ke folder [```src```](./src/)
+- Kumpulkan gambar ke dalam folder [```img```](./img/) apabila ada
 - Jalankan command git berikut di terminal untuk mengupdate github repo kalian
 ```zsh
 git add . 
 git commit -m "sambat2 dah wkwk"
 git push origin master
 ```
-- Buatlah video penjelasan mengenai class diagram yang kamu buat
+- Buatlah video penjelasan mengenai class diagram yang kamu buat apabila ada
 - Maksimal durasi video 20 menit, apabila lebih dari 20 menit akan mengalami pengurangan nilai sebesar 1 poin per menit
 - Upload video penjelasan ke youtube dan batasi videonya hanya yang memiliki link yang dapat melihat
 
