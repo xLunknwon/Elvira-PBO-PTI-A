@@ -1,4 +1,4 @@
-package DataDanAnalsisPercobaan;
+package src.DataDanAnalsisPercobaan;
 import java.util.*; 
 public class Employee { 
     private String name; 

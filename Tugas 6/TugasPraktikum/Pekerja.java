@@ -1,4 +1,4 @@
-package TugasPraktikum;
+package src.TugasPraktikum;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package TugasPraktikum;
+package src.TugasPraktikum;
 
 public class MahasiswaFILKOM extends Manusia {
     private String nim;

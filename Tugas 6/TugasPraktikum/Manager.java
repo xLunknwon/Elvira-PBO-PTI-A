@@ -1,4 +1,4 @@
-package TugasPraktikum;
+package src.TugasPraktikum;
 
 public class Manager extends Pekerja{
     private String departemen;

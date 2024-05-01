@@ -1,4 +1,4 @@
-package DataDanAnalsisPercobaan;
+package src.DataDanAnalsisPercobaan;
 public class MainEmployee {
     public static void main(String[] args) {
         Manager boss = new Manager("Steven", 80000, 1987, 12, 15);

@@ -1,4 +1,4 @@
-package DataDanAnalsisPercobaan;
+package src.DataDanAnalsisPercobaan;
 public class Manager extends Employee { 
     private double bonus; 
     public Manager(String name, double salary, int year, int month, int day){ 
