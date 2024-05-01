@@ -1,4 +1,4 @@
-package src.TugasPraktikum;
+package TugasPraktikum;
 
 public class Main {
     public static void main(String[] args) {
