@@ -1,10 +1,9 @@
 # 📁 Tugas 6 : Inheritance
 
 ## 👤 Identitas Intern
-Nama : Devan             
-NIM  : 22xxxxxx
+Nama : Elvira             
+NIM  : 235150600111006
 
 ## 🔗 Link Penjelasan Tugas
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
-
+https://youtu.be/c8XvA19_nt8
