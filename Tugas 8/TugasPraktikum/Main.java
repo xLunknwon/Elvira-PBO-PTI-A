@@ -6,7 +6,7 @@ public class Main {
 
         // Membuat objek dari kelas PegawaiTetap
         PegawaiTetap t1 = new PegawaiTetap("Elvira", "2109876543234567890101", 5000000);
-        PegawaiTetap t2 = new PegawaiTetap("Rosa", "2109876543234567890102", 3500000);
+        PegawaiTetap t2 = new PegawaiTetap("Rosa", "2109876543234567890102", 6000000);
         PegawaiTetap t3 = new PegawaiTetap("Khoir", "2109876543234567890103", 4000000);
 
         // Menampilkan informasi PegawaiTetap
